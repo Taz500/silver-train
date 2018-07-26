@@ -1,0 +1,18 @@
+language: perl
+perl:
+  - 5.1
+  - "5.2"
+
+install:
+  - cpanm --quiet --instelldeps
+
+before_script:
+  -
+
+env:
+  - E1: RED
+  - E2: BLUE
+
+#
+script:
+  - perl ./test_it.pl arg1 arg2
