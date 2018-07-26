@@ -1,6 +1,6 @@
 # -*- perl -*-
-
-use inc::Module::Install;
+# copied in ./inc
+# use inc::Module::Install;
 
 perl_version    5.008001;
 

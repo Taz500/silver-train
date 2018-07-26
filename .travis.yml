@@ -4,7 +4,9 @@ perl:
   - "5.2"
 
 install:
-  - cpanm --quiet --installdeps
+  # - cpanm --quiet --installdeps
+  # - cpanm --quiet --installdeps Cookie::Baker
+  - cpanm -n Cookie::Baker
 
 before_script:
   -
