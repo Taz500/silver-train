@@ -4,7 +4,7 @@ perl:
   - "5.2"
 
 install:
-  - cpanm --quiet --instelldeps
+  - cpanm --quiet --installdeps
 
 before_script:
   -
